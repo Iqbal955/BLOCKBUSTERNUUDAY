@@ -13,7 +13,9 @@ import Series from "./components/Header/Series";
 //The Switch component is used to render the first matching route.
 //The Route component is used to render a specific component when a specific path is requested.
 //The exact path is used to render the component only when the exact path is requested.
-//The path is used to render the component when the path is requested.
+//The path is used to render the component when the path is requested. The path is a regular expression. The path can contain variables. The variables are defined with a colon (:).
+
+//The variable name is used in the component as a prop.
 
 const App = () => {
   return (

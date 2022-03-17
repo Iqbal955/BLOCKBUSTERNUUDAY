@@ -7,10 +7,18 @@ import { Link } from "react-router-dom";
 import { Container, Content, Wrap } from "./StyledTrendingElements";
 
 const Trending = () => {
+    
     const movies = useSelector(selectTrending);
 
-    // we use the movies variable to map over the movies array and return the movie id and the movie title. In order to get the movies, we use useSelector.
+    {/*
+
+// we use the movies variable to map over the movies array and return the movie id and the movie title. In order to get the movies, we use useSelector.
 // The useSelector hook is used to access the state of the store. The state is stored in the store as a plain JavaScript object, and we can navigate to the detail page by using the Link component.
+// The Link component is used to navigate to a new page. 
+
+
+*/}
+
 
     return (
         <Container>

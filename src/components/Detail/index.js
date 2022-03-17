@@ -24,6 +24,20 @@ import {
 import { useDispatch, useSelector } from "react-redux";
 import Popup from "reactjs-popup";
 
+{/*
+ Detail component is used to display the details of a movie. It is used in the Detail page. 
+ It is also used in the Wishlist page. useLocation is used to get the movie object from the state. we use the movie object to get the background image, trailer, title and description.
+ we use dispatch to add the movie to the wishlist. we use dispatch to remove the movie from the wishlist.
+  we use selectUserWishList to get the wishlist from the state. we use selectUserName to get the username from the state.
+  get the background image, trailer, title and description.
+  add the movie to the wishlist.
+  remove the movie from the wishlist.
+  we use the movie object to get the background image, trailer, title and description.
+
+
+
+*/}
+
 const Detail = () => {
   const { state } = useLocation();
   const movie = state?.movie;

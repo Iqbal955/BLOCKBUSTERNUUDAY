@@ -10,6 +10,13 @@ import {
     BgImage,
 } from "./StyledLogoElements";
 
+{/*
+//The login component is a stateless component. It does not have any state. It only renders the login form. The login form is a stateless component.
+ It does not have any state. It only renders the login form. 
+
+*/}
+
+
 const Login = () => {
     return (
         <Container>

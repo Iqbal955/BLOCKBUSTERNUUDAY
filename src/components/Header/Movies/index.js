@@ -12,7 +12,14 @@ import {
 import { Link, useParams } from "react-router-dom";
 import Progress from "../../../features/Loader/Progress";
 
-//
+{/*
+// the genres component is a stateless component. It does not have any state. It only renders the genres. The genres are stateless components.  They do not have any state. They only render the genres and the movies. 
+We use the useParams hook to get the genre from the url. We use the useEffect hook to fetch the data from the api. We use the useState hook to set the state of the movies. We use the useState hook to set the state of the genreLength. 
+We use the useState hook to set the state of the loading. We use the useState hook to set the state of the range.
+ We use the useState hook to set the state of the loadMore.
+ 
+
+*/}
 
 const Movies = () => {
 

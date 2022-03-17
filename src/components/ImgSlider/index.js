@@ -6,7 +6,8 @@ import { Carousel, Wrap } from "./StyledImgSliderElements";
 import { Link } from "react-router-dom";
 
 
-// the image slider component is a carousel with images
+// the image slider component is a carousel with images that are linked to the home page. The images are imported from the src\images\slides folder.
+// we use the styled-components library to style the carousel. We use the Wrap component to wrap the images in a div. We use the Link component to link the images to the home page. 
 
 const ImgSlider = () => {
   let settings = {

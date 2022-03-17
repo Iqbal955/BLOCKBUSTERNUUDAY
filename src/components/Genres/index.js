@@ -20,6 +20,13 @@ const Genres = () => {
   const [range, setRange] = useState({ prev: 20 });
   const [loadMore, setLoadMore] = useState(false);
 
+  {/*
+// the genres component is a stateless component. It does not have any state. It only renders the genres. The genres are stateless components.  They do not have any state. They only render the genres and the movies. 
+
+*/}
+
+  
+
   useEffect(() => {
     fetch(
       `https://feed.entertainment.tv.theplatform.eu/f/jGxigC/bb-all-pas?form=json&lang=da&byTags=genre:${genre}`
