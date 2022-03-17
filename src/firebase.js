@@ -3,7 +3,6 @@ import firebase from 'firebase';
 const firebaseConfig = {
     apiKey: "AIzaSyCOLUf1qlidzdHtcqGlPXUAehoYtz21L6I",
     authDomain: "blockbuster-nuuday1.firebaseapp.com",
-    authDomain: "main.d1incfowmypfj0.amplifyapp.com",
     projectId: "blockbuster-nuuday1",
     messagingSenderId: "261141755022",
     appId: "1:261141755022:web:c539562f74bca4a243c5df",
