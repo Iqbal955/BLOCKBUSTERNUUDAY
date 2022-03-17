@@ -23,7 +23,9 @@ const Login = () => {
             <Content>
                 <CTA>
                     <CTALogoOne src="https://theme.zdassets.com/theme_assets/1092563/a245708927603119f60e2b304894e844a57d6839.png" alt=""/>
-                    <SignUp>UDFORSK BLOCKBUSTER UNIVERSET</SignUp>
+                        <SignUp>
+                     <Link to="/home">UDFORSK BLOCKBUSTER UNIVERSET</Link>
+                         </SignUp>
                     <Description>
                      DE FEDESTE FILM, DE FEDESTE SERIER, 
                   
